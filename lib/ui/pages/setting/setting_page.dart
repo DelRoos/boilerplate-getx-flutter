@@ -108,8 +108,8 @@ class _SettingPageState extends State<SettingPage> {
             },
           ),
           RadioListTile(
-            title: Text(S.of(context).settings_languageVietnamese),
-            value: Locale.fromSubtags(languageCode: 'vi'),
+            title: Text(S.of(context).settings_languageFrench),
+            value: Locale.fromSubtags(languageCode: 'fr'),
             groupValue: settingService.currentLocate.value,
             onChanged: (Locale? value) {
               if (value != null) {

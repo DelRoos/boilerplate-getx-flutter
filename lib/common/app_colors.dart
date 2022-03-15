@@ -3,8 +3,8 @@ import 'dart:ui';
 class AppColors {
   ///Common
   static const Color primary = Color(0xFF1a222d);
-  static const Color secondary = Color(0xFFd74315);
-  static const Color accent = Color(0xFFd74315);
+  static const Color secondary = Color(0xFF006400);
+  static const Color accent = Color(0xFF006400);
 
   ///Background
   static const Color background = Color(0xFF1a222d);
@@ -28,14 +28,14 @@ class AppColors {
 
   ///TextField
   static const Color textFieldEnabledBorder = Color(0xFF919191);
-  static const Color textFieldFocusedBorder = Color(0xFFd74315);
+  static const Color textFieldFocusedBorder = Color(0xFF006400);
   static const Color textFieldDisabledBorder = Color(0xFF919191);
   static const Color textFieldCursor = Color(0xFF919191);
 
   ///Button
   static const Color buttonBGWhite = Color(0xFFcdd0d5);
-  static const Color buttonBGTint = Color(0xFFd74315);
-  static const Color buttonBorder = Color(0xFFd74315);
+  static const Color buttonBGTint = Color(0xFF006400);
+  static const Color buttonBorder = Color(0xFF006400);
 
   /// Tabs
   static const Color imageBG = Color(0xFF919191);

@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:lion_app/common/app_colors.dart';
 import 'package:lion_app/common/app_images.dart';
 import 'package:lion_app/common/app_text_styles.dart';
+import 'package:lion_app/generated/l10n.dart';
 import 'package:lion_app/model/enums/load_status.dart';
 import 'package:lion_app/ui/widgets/buttons/app_tint_button.dart';
 import 'package:lion_app/ui/widgets/input/app_email_input.dart';
@@ -57,6 +58,7 @@ class _SignInPageState extends State<SignInPage> {
         Container(
           margin: EdgeInsets.symmetric(horizontal: 20),
           child: AppPasswordInput(
+            labelText: S.of(context).password,
             obscureTextController: state.obscurePasswordController,
             textEditingController: state.passwordTextController,
             labelStyle: AppTextStyle.whiteS14Bold,
@@ -77,7 +79,7 @@ class _SignInPageState extends State<SignInPage> {
       return Container(
         padding: EdgeInsets.symmetric(horizontal: 20),
         child: AppTintButton(
-          title: 'Sign In',
+          title: S.of(context).password,
           onPressed: _signIn,
           isLoading: state.signInStatus.value == LoadStatus.loading,
         ),

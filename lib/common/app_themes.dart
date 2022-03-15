@@ -11,9 +11,9 @@ class AppThemes {
   static const Color _lightPrimaryColor = Color(0xffffffff);
   static const Color _darkPrimaryColor = Color(0xFF1a222d);
 
-  //Secondary
-  static const Color _lightSecondaryColor = Color(0xFFd74315);
-  static const Color _darkSecondaryColor = Color(0xFFd74315);
+  //Secondary 0xFF006400
+  static const Color _lightSecondaryColor = Color(0xFF006400);
+  static const Color _darkSecondaryColor = Color(0xFF006400);
 
   //Background
   static const Color _lightBackgroundColor = Color(0xffffffff);
@@ -38,12 +38,15 @@ class AppThemes {
     headline3: TextStyle(fontSize: 48.0, color: _lightTextColor),
     headline4: TextStyle(fontSize: 34.0, color: _lightTextColor),
     headline5: TextStyle(fontSize: 24.0, color: _lightTextColor),
-    headline6: TextStyle(fontSize: 20.0, color: _lightTextColor, fontWeight: FontWeight.w500),
+    headline6: TextStyle(
+        fontSize: 20.0, color: _lightTextColor, fontWeight: FontWeight.w500),
     subtitle1: TextStyle(fontSize: 16.0, color: _lightTextColor),
-    subtitle2: TextStyle(fontSize: 14.0, color: _lightTextColor, fontWeight: FontWeight.w500),
+    subtitle2: TextStyle(
+        fontSize: 14.0, color: _lightTextColor, fontWeight: FontWeight.w500),
     bodyText1: TextStyle(fontSize: 16.0, color: _lightTextColor),
     bodyText2: TextStyle(fontSize: 14.0, color: _lightTextColor),
-    button: TextStyle(fontSize: 14.0, color: _lightTextColor, fontWeight: FontWeight.w500),
+    button: TextStyle(
+        fontSize: 14.0, color: _lightTextColor, fontWeight: FontWeight.w500),
     caption: TextStyle(fontSize: 12.0, color: _lightTextColor),
     overline: TextStyle(fontSize: 14.0, color: _lightTextColor),
   );
@@ -54,12 +57,15 @@ class AppThemes {
     headline3: TextStyle(fontSize: 48.0, color: _darkTextColor),
     headline4: TextStyle(fontSize: 34.0, color: _darkTextColor),
     headline5: TextStyle(fontSize: 24.0, color: _darkTextColor),
-    headline6: TextStyle(fontSize: 20.0, color: _darkTextColor, fontWeight: FontWeight.w500),
+    headline6: TextStyle(
+        fontSize: 20.0, color: _darkTextColor, fontWeight: FontWeight.w500),
     subtitle1: TextStyle(fontSize: 16.0, color: _darkTextColor),
-    subtitle2: TextStyle(fontSize: 14.0, color: _darkTextColor, fontWeight: FontWeight.w500),
+    subtitle2: TextStyle(
+        fontSize: 14.0, color: _darkTextColor, fontWeight: FontWeight.w500),
     bodyText1: TextStyle(fontSize: 16.0, color: _darkTextColor),
     bodyText2: TextStyle(fontSize: 14.0, color: _darkTextColor),
-    button: TextStyle(fontSize: 14.0, color: _darkTextColor, fontWeight: FontWeight.w500),
+    button: TextStyle(
+        fontSize: 14.0, color: _darkTextColor, fontWeight: FontWeight.w500),
     caption: TextStyle(fontSize: 12.0, color: _darkTextColor),
     overline: TextStyle(fontSize: 14.0, color: _darkTextColor),
   );
