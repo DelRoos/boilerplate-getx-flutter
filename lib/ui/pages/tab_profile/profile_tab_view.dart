@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lion_app/common/app_dimens.dart';
+import 'package:lion_app/generated/l10n.dart';
 import 'package:lion_app/model/enums/load_status.dart';
 import 'package:lion_app/services/auth_service.dart';
 import 'package:lion_app/ui/pages/setting/setting_page.dart';
@@ -113,7 +114,7 @@ class _ProfileTabPageState extends State<ProfileTabPage>
       return Container(
         margin: EdgeInsets.symmetric(horizontal: 20),
         child: AppWhiteButton(
-          title: 'Logout',
+          title: S.of(context).password,
           isLoading: state.signOutStatus.value == LoadStatus.loading,
           onPressed: _handleSignOut,
         ),

@@ -1,5 +1,5 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
-// This is a library that provides messages for a en locale. All the
+// This is a library that provides messages for a vi locale. All the
 // messages from the main program should be duplicated here with the same
 // function name.
 
@@ -17,23 +17,24 @@ final messages = new MessageLookup();
 typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 
 class MessageLookup extends MessageLookupByLibrary {
-  String get localeName => 'en';
+  String get localeName => 'fr';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function>{
-        "settings_language": MessageLookupByLibrary.simpleMessage("Language"),
+        "settings_language": MessageLookupByLibrary.simpleMessage("Langue"),
         "settings_languageEnglish":
             MessageLookupByLibrary.simpleMessage("English"),
         "settings_languageFrench":
-            MessageLookupByLibrary.simpleMessage("Français"),
-        "settings_themeMode": MessageLookupByLibrary.simpleMessage("Theme"),
-        "settings_themeModeDark": MessageLookupByLibrary.simpleMessage("Dark"),
+            MessageLookupByLibrary.simpleMessage("Francais"),
+        "settings_themeMode": MessageLookupByLibrary.simpleMessage("Thème"),
+        "settings_themeModeDark":
+            MessageLookupByLibrary.simpleMessage("Sombre"),
         "settings_themeModeLight":
-            MessageLookupByLibrary.simpleMessage("Light"),
+            MessageLookupByLibrary.simpleMessage("Lumineux"),
         "settings_themeModeSystem":
-            MessageLookupByLibrary.simpleMessage("System"),
-        "settings_title": MessageLookupByLibrary.simpleMessage("Settings"),
-        "password": MessageLookupByLibrary.simpleMessage("password"),
-        "play_now": MessageLookupByLibrary.simpleMessage("Now playing"),
+            MessageLookupByLibrary.simpleMessage("Système"),
+        "settings_title": MessageLookupByLibrary.simpleMessage("Paramètre"),
+        "password": MessageLookupByLibrary.simpleMessage("Mot de passe"),
+        "play_now": MessageLookupByLibrary.simpleMessage("Jeux en cours"),
       };
 }
